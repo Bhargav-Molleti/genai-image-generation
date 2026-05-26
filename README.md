@@ -1,9 +1,7 @@
 ## Gen AI – Image Generation using GAN
-
 A Deep Learning and Generative AI project that uses Generative Adversarial Networks (GANs) to generate realistic synthetic images inspired by the CIFAR-10 dataset. This project demonstrates the implementation of a custom GAN architecture using TensorFlow and Keras, where a Generator creates fake images and a Discriminator learns to distinguish between real and generated images through adversarial training.
 
 ## Project Overview
-
 This project focuses on understanding and implementing the core concepts of Generative AI and Deep Learning through GANs.
 
 The system consists of two neural networks:
@@ -34,9 +32,7 @@ The project is trained on the CIFAR-10 dataset, which contains 60,000 RGB images
 - Jupyter Notebook / Google Colab
 
 ## Deep Learning Concepts Covered
-
 This project demonstrates practical implementation of:
-
 - Generative Adversarial Networks (GANs)
 - Convolutional Neural Networks (CNNs)
 - Image Synthesis
@@ -48,6 +44,8 @@ This project demonstrates practical implementation of:
 - Image Upsampling using Conv2DTranspose
 
 ## Project Workflow
+
+```text
 Random Noise Vector
         ↓
     Generator
@@ -57,6 +55,7 @@ Generated Fake Image
   Discriminator
         ↓
 Real or Fake Prediction
+```
 
 ## Training Process
 1. Load and preprocess CIFAR-10 dataset
